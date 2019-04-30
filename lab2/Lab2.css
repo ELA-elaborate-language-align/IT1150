@@ -1,0 +1,24 @@
+/* Stylesheet to practice selectors, classes and ids */
+
+body {
+  background-color: rgb(80, 161, 172);
+}
+
+footer {
+  background-color: rgb(255, 245, 249);
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+  margin-right:20px;
+}
+ol {
+  background-color: rgb(253, 216, 223)
+}
+div {
+background-color: lightblue;
+width: 1267px;
+padding: 25px;
+border: 5px solid navy;
+}
