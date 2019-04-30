@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Popularity Salon</title>
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="stylesheet" href="Styles/normalize.css">
+	<link rel="stylesheet" href="Styles/main.css">
+    <link rel="stylesheet" href="Styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    </script>
+</head>
+
+<body>
+	<header>
+		<img src="images/town_hall_logo.gif" alt="Town Hall logo" height="89">
+		<h2>POPULARITY SALON</h2>
+		<h3>Be the <span class="shadow">1<sup>st</sup>Celebrity in Town!</span></h3>
+	</header>
+    <nav id="mobile_menu"></nav>
+	<nav id="nav_menu">
+    	<ul>
+        	<li><a href="index.html" class="current">HOME</a></li>
+        	<li><a href="services.html">SERVICES</a></li>
+        	<li><a href="products.html">PRODUCTS</a></li>
+        	<li><a href="advices.html">ADVICES</a></li>
+        	<li><a href="About Us.html">ABOUT US</a>
+            	<ul>
+                	<li><a href="Careers.html">CAREERS</a></li>
+                	<li><a href="Styles.html">STYLES</a></li>
+                	<li><a href="Contact.html">CONTACT</a></li>
+            	</ul>
+        	</li>
+    	</ul>
+	</nav>
+	<main>
+		<img src="images/chua775.jpg" alt="pic MM" width="41%">
+		<iframe width="560" height="255" src="https://www.youtube.com/embed/X46URbjqSaw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<h1>Make A Reservation Today</h1>
+						<form action="Styles.html" method="get" name="Contact_form"
+						
+						id="Reservation_form">
+						
+						<fieldset>
+						<legend>What Can We do For Our Celebrity Today?</legend>
+						
+						<label for="email">E-Mail:</label>
+						
+						<input type="email" name="email" id="email"
+						
+						autofocus required><br>
+						
+						<label for="password">Password:</label>
+						<input type="password" name="password" id="password" required placeholder="At least 
+						6 letters or numbers" pattern="[a-zA-Z0-9]{6,}" 
+						title="Must be at least 6 alphanumeric characters"><br>
+						
+						<label for="verify">Verify Password:</label>
+						
+						<input type="password" name="verify" id="verify" required><br>
+						
+						
+						</fieldset>
+						
+						<fieldset>
+						
+						<legend>Service Information</legend>
+						
+						<label for="first_name">First Name:</label>
+						
+						<input type="text" name="first_name" id="first_name"
+						
+						required><br>
+						
+						<label for="last_name">Last Name:</label>
+						<input type="text" name="last_name" id="last_name" required><br>
+						
+						<label for="city">City:</label>
+						
+						<input type="text" name="city" id="city" required><br>
+						
+						<label for="state">State:</label>
+						
+						<input type="text" name="state" id="state" required 
+						maxlength="2" placeholder="2-character code"><br>
+						
+						<label for="zip">ZIP Code:</label>
+						
+						<input type="text" name="zip" id="zip" required placeholder="5 or 9 digits"
+						
+						pattern="^\d{5}(-\d{4})?$" title="Either 5 or 9 digits"><br>
+						
+						<label for="phone">Phone Number:</label>
+						
+						<input type="tel" name="phone" id="phone" placeholder="999-999-9999"
+						pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-999 format"><br>
+						
+						</fieldset>
+						
+						
+						
+						<fieldset id="buttons">
+						
+						<legend>Submit Your Request</legend>
+						
+						<label>&nbsp;</label>
+						
+						<input type="submit" id="submit" value="Submit">
+						
+						<input type="reset" id="reset"
+						value="Reset Fields"><br>
+						
+						</fieldset>
+						
+						</form>
+						
+						<fieldset>
+						
+								<legend>Service Needed</legend>
+								
+								<label for="hair type_type">Hair Style:</label>
+								
+								<select name="hair_type" id="hair_type">
+								
+								<option value="Hair Dressing Needed">Hair Dressing Needed</option>
+								
+								<option value="Style">Style</option>
+								
+								<option value="Manechiure">Manechire</option>
+								
+								<option value="Massage">Massage</option>
+								
+								<option value="Pedichiure">Pedichiure</option>
+								
+								<option value="Dermatology Service">Dermatology Service</option>
+								
+								<option value="Acupuncture Service">Acupuncture Service</option>
+								
+								<option value="CounselingService">Counseling Service</option>
+								
+								<option value="Mind-Body Therapy">Mind Body Therapy</option>
+								
+								<option value="Bowen Therapy">Bowen Therapy</option>
+							
+								
+								</option>
+								
+								<option value="Yoga Therapy">Yoga Therapy</option>
+								
+								<option value="Esthetics">Esthetics</option>
+								
+								</select><br>
+								
+								<label for="available_date">Day You Are Coming In:</label>
+								
+								<input type="date" name="date_needed" id="date_needed"
+								
+								required><br>
+								
+								</fieldset>
+								
+						
+						<a href="#top">Top</a>
+						
+						<p id="contact_us"><em>Contact us by phone</em>
+						 at 717-753-0000 because your rights are valuable at 
+						 POPULARITY SALON</p>
+						
+				
+					
+			
+	</main>
+	<footer>
+		<p>&copy; 2019, Popularity Salon</p>
+	</footer>
+</body>
+</html>
