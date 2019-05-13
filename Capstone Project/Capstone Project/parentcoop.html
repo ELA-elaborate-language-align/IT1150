@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CleverLand Academy</title>
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+	</script>
+	
+	
+</head>
+
+<body>
+	<header>
+		<img src="images/favicon.png" alt="CleverLand" height="80">
+		<h2>CleverLand Academy</h2>
+		<h3>The Land where Elites Gather Together to Plan a Bright Future!</h3>
+	</header>
+	<nav id="mobile_menu"></nav>
+	
+	<nav id="nav_menu">
+    	<ul>
+        	<li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About CleverLand</a>
+                <ul>
+                	<li><a href="infant.html">Infant</a></li>
+                	<li><a href="toddler.html">Toddler</a></li>
+                	<li><a href="preschool.html">Preschool</a></li>
+                	<li><a href="schoolage.html">School Age</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="resources.html">Resources</a>
+                <ul>
+                	
+                	<li><a href="curriculum.html">Curriculum</a></li>
+                </ul>
+            </li>
+            <li><a href="info.html">Info</a>
+                <ul>
+                        
+                        <li><a href="parentcoop.html">Parent Co-op</a></li>
+                    </ul>
+                </li>
+                    <li><a href="contact.html">Contact Us</a>
+                    <ul>
+                           
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="getdirection.html">Get Directions</a></li>
+
+                    </ul>
+                </li>
+                	
+	</nav>
+	<main>
+		<section>
+			<h2>Download a parent Pack</h2>
+			<div class="col-md-6 col-sm-6">
+					<h1>Download a parent pack</h1>
+					<h3>To download our parent pack, just enter your details in the form below and we will email you a link to download the parent pack.</h3>
+							<form action="" method="post" id="nsform">
+						<div class="form-group">
+							<div class="input-group">
+								<span class="input-group-addon booking-input-group-addon">
+								  <svg class="svg-inline--fa fa-user fa-w-14" aria-hidden="true" data-prefix="fa" data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path></svg><!-- <i class="fa fa-user"></i> -->
+								</span>
+								<input name="firstname" type="text" class="form-control booking-form-control" placeholder="First Name" value="">
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="input-group">
+								<span class="input-group-addon booking-input-group-addon">
+								  <svg class="svg-inline--fa fa-user fa-w-14" aria-hidden="true" data-prefix="fa" data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path></svg><!-- <i class="fa fa-user"></i> -->
+								</span>
+								<input name="Last Name" type="text" class="form-control booking-form-control" placeholder="Last Name" value="">
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="input-group">
+								<span class="input-group-addon booking-input-group-addon">
+								  <svg class="svg-inline--fa fa-envelope fa-w-16" aria-hidden="true" data-prefix="fa" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg><!-- <i class="fa fa-envelope"></i> -->
+								</span>
+								<input name="email" type="email" class="form-control booking-form-control" placeholder="Email Address" value="">
+							</div>
+						</div>
+						<br>
+						<small>Please tick the box below to confirm you are happy for us to store the information supplied and that you are happy to be contacted by CleverLand via email for marketing purposes. Click the following links for further information on our <a href="/privacy-policy">Privacy Policy</a>, <a href="https://cdn.busybeeschildcare.co.uk/?data-protection-policy-2018-05-09.pdf">Data Protection Policy</a> and <a href="/cookie-policy">Cookie Policy.</a></small>
+						<br><br>
+						<label>Email</label> <input name="parentoptin" class="ppOptIn" type="checkbox" value="1">                    
+						<br><br>
+						<h3>Please complete the anti-spam check</h3>
+						<div class="captcha-holder">
+							<div class="g-recaptcha" data-sitekey="6LfmIAETAAAAANXjSfDzfc0wtxmXZQ29H3MGXHz9"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfmIAETAAAAANXjSfDzfc0wtxmXZQ29H3MGXHz9&amp;co=aHR0cHM6Ly93d3cuYnVzeWJlZXNjaGlsZGNhcmUuY28udWs6NDQz&amp;hl=en&amp;v=v1555968629716&amp;size=normal&amp;cb=zi6ao7jcz9s" width="304" height="78" role="presentation" name="a-lsm5zvd25mr3" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div>
+							<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/api2/v1555968629716/recaptcha__en.js"></script><script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en"></script>
+						</div>
+						<br><br>
+						<input name="securitytoken" id="securitytoken" value="NjEwZTU1N2ViMTMwODY4NTJhYzY4Y2M1ZWQxYjAyOTc=" type="hidden">
+						<input name="submitenquiry" value="1" type="hidden">
+						<input name="gclid" id="gclid" value="" type="hidden">
+						<input type="submit" name="submit" class="submitButton" value="Request Parent Pack">
+						<br><br>
+					</form>
+				</div>
+<br>			
+							
+			<article>
+
+					<div class="row">
+							<h3>Working in partnership with parents is paramount to children's learning and development, CleverLand prides itself on the collaborative approach between parent and setting on the child's learning and development.</h3>
+						   
+							<h3>Each child will be allocated a member of staff known to the parent and child as your child's 'Key Person' they will have knowledge and understanding on how children learn and develop and will have the unique understanding of what your child's currents interests and needs are.</h3>     <h3>The relationship between the 'Key Person', child and parent will begin on day one of your child attending the setting.  In order to build an attachment between your child and the Key Person it is important your child recognises your acceptance of the Key Person which will lead your child into having secure confidence with their relationship with 
+							the Key Person.</h3>             
+							
+							<h3>Key Person's recognise the parent is the child's first educator, it is the parent who will know their child best and we will work in partnership with the parent to ensure we have all current information needed to settle and build upon your child's learning and development.  The Key Person will effectively share information with parents in order for your child's needs to be understood and therefore met.</h3>  
+							 
+						</div>
+
+						<div class="row">
+								<div class="col-md-6 col-sm 12">
+			<img src="images/99.jpg" width="95%">
+									
+								
+								</div>
+								<div class="row">
+									<div class="col-md-6 col-sm-12">
+										<h3>
+										A child's time at a CleverLand nursery should be a memorable journey not just for them but for parents too. The Key Person will capture all of your child's learning and talking about your child's learning may happen informally at the beginning or end of the day when you drop off or collect your child from nursery. Engaging in a conversation with your child's Key Person can often produce useful information about new interests or experiences that can be used to plan exciting and challenging learning opportunities at nursery and further create activity ideas that can be shared with parents to do at home.  
+										</h3>
+									</div>
+								</div> 
+								<div class="row">
+									<div class="col-md-12 col-sm-12">
+									   
+									   <h3>
+										We recognise at CleverLand how busy parents are and it may not be possible to engage in a daily conversation with your child's Key Person but at CleverLand there are tools to support a regular two way flow of communication such as baby diaries, newsletters, texts and emails. Parents' evenings and meetings take place regularly and provide opportunities for key persons to share observations, assessments and planning with parents and to be able to listen and respond to any thoughts or questions you may have. 
+									   </h3>    
+										
+									   <h3>
+										Development from home and nursery in a CleverLand Learning Journal; this will be yours to keep when your child leaves the nursery.  
+									   </h3>
+										
+										<h3>At every CleverLand nursery we have a Parent Partnership Group where parents in the nursery have been elected to represent parents using the nursery, their contact details are available on the reception notice board. Our Parent Partnership Groups encourage good communication between parents and the nurseries. For example discussing changes to policies and ways in which our service to parents and children can be enhanced. Members of the partnership group also act as a support to other parents who would benefit from their reassurance when their child starts at the nursery.</h3> 
+										
+										<h3>The nursery will also hold social gatherings and fund raisers throughout the year these are also good ways to build strong and happy relationships between the parents and 
+										the nursery through having fun.</h3> 
+										
+									</div>
+								</div>
+			
+							</div>							
+			
+					</article>
+					<a href="#top">Top</a>
+		</section>
+
+
+		<aside>
+	<h2>CleverLand</h2>
+		<div id="CleverLand">
+			<img src="images/90.jpg" width="95%">
+			
+			<img src="images/72.jpg" width="95%">
+			<img src="images/74.jpg" width="95%>
+			<img src="images/92.jpg" width="95%>
+			<img src="images/73.jpg" width="95%">
+			<img src="images/71.jpg" width="95%">
+			<img src="images/791.jpg" width="95%">
+			<img src="images/73.jpg" width="95%">
+		
+			<img src="images/92.jpg" width="95%>
+			<h3>5-8 Years Old<br><a href="parentcoop.html">Parents' Partnership</a></h3>
+			<img src="images/87.jpg" width="95%">
+			</div>
+		</aside>		
+	</main>
+	<footer>
+			<p>&copy; 2019, CleverLand Academy - Parma OHIO, 44129</p>
+		</footer>
+	</body>
+	</html>
